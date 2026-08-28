@@ -21,7 +21,7 @@ fun MoviesButtonBar (
     val screens = listOf(
         Screen.Movies,
         Screen.Profile,
-        Screen.Recomendations
+        Screen.Recommendations
     )
 
     NavigationBar {

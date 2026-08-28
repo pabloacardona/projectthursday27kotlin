@@ -22,9 +22,9 @@ sealed class Screen (
         icon = Icons.Default.Person
     )
 
-    data object Recomendations : Screen (
-        route = "recomendations",
-        label = "Recomendations",
+    data object Recommendations : Screen (
+        route = "recommendations",
+        label = "Recommendations",
         icon = Icons.Default.ArtTrack
     )
 

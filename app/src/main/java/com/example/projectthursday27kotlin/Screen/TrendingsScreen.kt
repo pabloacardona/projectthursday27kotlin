@@ -21,7 +21,7 @@ fun TrendingsScreen() {
         verticalArrangement = Arrangement.Center
     ) {
         Text(
-            "Trendings",
+            "Trendings!",
             style = MaterialTheme.typography.headlineMedium
         )
     }

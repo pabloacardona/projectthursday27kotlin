@@ -19,9 +19,10 @@ fun MoviesButtonBar (
     val currentRoute = navBackStackEntry.value?.destination?.route // navBackStackEntry puede tener un valor null
 
     val screens = listOf(
+        Screen.Trendings,
         Screen.Movies,
-        Screen.Profile,
-        Screen.Recommendations
+        Screen.Favorites,
+        Screen.Profile
     )
 
     NavigationBar {

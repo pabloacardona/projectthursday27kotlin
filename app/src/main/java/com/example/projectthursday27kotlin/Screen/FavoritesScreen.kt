@@ -10,14 +10,14 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 
 @Composable
-fun RecommendationsScreen() {
+fun FavoritesScreen() {
     Column(
         modifier = Modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
         Text(
-            "Recommendations",
+            "Favorites",
             style = MaterialTheme.typography.headlineMedium
         )
     }

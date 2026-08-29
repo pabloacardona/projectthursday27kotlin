@@ -5,9 +5,10 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import com.example.projectthursday27kotlin.Screen.FavoritesScreen
 import com.example.projectthursday27kotlin.Screen.MovieScreen
 import com.example.projectthursday27kotlin.Screen.ProfileScreen
-import com.example.projectthursday27kotlin.Screen.RecommendationsScreen
+import com.example.projectthursday27kotlin.Screen.TrendingsScreen
 
 @Composable
 fun MoviesNavHost (
@@ -27,8 +28,12 @@ fun MoviesNavHost (
             ProfileScreen()
         }
 
-        composable(Screen.Recommendations.route) {
-            RecommendationsScreen()
+        composable(Screen.Trendings.route) {
+            TrendingsScreen()
+        }
+
+        composable(Screen.Favorites.route) {
+            FavoritesScreen()
         }
     }
 }

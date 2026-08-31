@@ -21,7 +21,7 @@ fun MovieScreen() {
         verticalArrangement = Arrangement.Center
     ) {
         Text(
-            "Movies",
+            "Movies!",
             style = MaterialTheme.typography.headlineMedium
         )
     }

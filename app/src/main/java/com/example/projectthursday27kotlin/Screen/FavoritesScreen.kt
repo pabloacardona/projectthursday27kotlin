@@ -21,7 +21,7 @@ fun FavoritesScreen() {
         verticalArrangement = Arrangement.Center
     ) {
         Text(
-            "Favorites",
+            "Favorites!",
             style = MaterialTheme.typography.headlineMedium
         )
     }

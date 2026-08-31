@@ -21,7 +21,7 @@ fun ProfileScreen() {
         verticalArrangement = Arrangement.Center
     ) {
         Text(
-            "Profile",
+            "My Profile!",
             style = MaterialTheme.typography.headlineMedium
         )
     }
